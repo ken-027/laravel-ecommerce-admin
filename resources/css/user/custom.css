@@ -1,0 +1,84 @@
+.block.logo a img {
+    margin-top: -15px;
+}
+
+.block.content-text {
+    margin-top: -50px;
+}
+
+#siteSiderMenu ul li a {
+    background: #8bb927;
+}
+
+.block.get-offer i {
+    font-size: 20px;
+    color: white;
+    padding-top: 0px;
+}
+
+.nextBtn {
+    float: left !important;
+    margin-left: 30px;
+}
+
+.social-container {
+    width: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    /* border-right: var(--borderSeparator); */
+    position: fixed;
+    background-color: #8bb927;
+    bottom: -20px;
+    left: 0;
+    top: 0;
+}
+
+.social-container ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 100%;
+}
+
+.social-container li i {
+    color: white;
+    font-size: 22px;
+}
+
+.social-container ul li a {
+    color: #ffffff;
+}
+
+
+/*
+==============================
+  Auto Complete
+==============================
+
+
+.autocomplete-suggestions{
+  width: 547px !important;
+  padding: 15px;
+  -webkit-border-radius: 0px;
+  -moz-border-radius: 0px;
+  border-radius: 0px;
+  border: none;
+  background: #fff;
+  overflow: auto;
+}
+.autocomplete-suggestions .autocomplete-suggestion{
+  font-size: 15px;
+  color:#000;
+}
+.autocomplete-suggestions .autocomplete-suggestion strong{
+  color:rgba(177, 67, 181, 1.0);
+  font-weight: 600;
+}
+.autocomplete-suggestions { border: 1px solid #ddd; background: #fff; cursor: default; overflow: auto; }
+.autocomplete-suggestion { padding: 10px 5px; font-size: 1.2em; white-space: nowrap; overflow: hidden; }
+.autocomplete-selected { background: #f0f0f0; }
+.autocomplete-suggestions strong { font-weight: normal; color: #3399ff; }
+*/

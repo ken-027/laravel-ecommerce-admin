@@ -1,0 +1,28 @@
+<?php
+
+namespace Database\Seeders;
+
+use Illuminate\Database\Seeder;
+use Illuminate\Support\Facades\DB;
+
+class CategoriesSeeder extends Seeder
+{
+    /**
+     * Run the database seeds.
+     *
+     * @return void
+     */
+    public function run()
+    {
+        DB::statement("
+            INSERT INTO `categories` (`id`, `title`, `image`, `description`, `published`, `ordering`, `tooltip_device`, `tooltip_storage`, `tooltip_condition`, `tooltip_network`, `tooltip_connectivity`, `tooltip_watchtype`, `tooltip_case_material`, `tooltip_case_size`, `tooltip_color`, `tooltip_accessories`, `tooltip_screen_size`, `tooltip_screen_resolution`, `tooltip_lyear`, `tooltip_processor`, `tooltip_ram`, `fields_type`, `storage_title`, `condition_title`, `network_title`, `connectivity_title`, `case_size_title`, `type_title`, `case_material_title`, `color_title`, `accessories_title`, `screen_size_title`, `screen_resolution_title`, `lyear_title`, `processor_title`, `ram_title`) VALUES
+            (6, 'Phones', 'MjAyMjAyMjQxNDQ2MDQ=.png', '<p>MOBILEPHONES,&nbsp; IPHONE, SAMSUNG,&nbsp; BLACKBERRY, HTC,&nbsp; HUAWEI, LG, MOTOROLA, NEXUS, PIXEL, NOKIA, GALAXY , SONY XPERIA, TELSTRA, ZTE, OPPO, XIAOMI,&nbsp;</p>', 1, 112, '', '&lt;p&gt;&lt;strong&gt;Trading in an iPhone?&lt;/strong&gt; You can locate its storage capacity by going to &lt;i&gt;&lt;strong&gt;Settings&amp;nbsp; &lt;/strong&gt;&lt;/i&gt;&amp;gt; &lt;i&gt;&lt;strong&gt;General&lt;/strong&gt;&lt;/i&gt; &amp;gt; &lt;i&gt;&lt;strong&gt;About.&lt;/strong&gt;&lt;/i&gt;&amp;nbsp;Scroll down until you see&lt;i&gt; &lt;strong&gt;Capacity&lt;/strong&gt;&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&lt;strong&gt;Trading in a Samsung Galaxy or Android Phone?&lt;/strong&gt;&amp;nbsp;You can locate its storage capacity by going to&amp;nbsp;&lt;i&gt;&lt;strong&gt;Settings&amp;nbsp; &lt;/strong&gt;&lt;/i&gt;&amp;gt;&amp;nbsp;&lt;i&gt;&lt;strong&gt;Storage&lt;/strong&gt;&lt;/i&gt;.&amp;nbsp; The phone&#039;s total storage will be displayed under &lt;i&gt;&lt;strong&gt;Total Space&lt;/strong&gt;&lt;/i&gt;.&lt;br&gt;&lt;br&gt;&amp;nbsp;&lt;/p&gt;', '', '&lt;p&gt;Sample&lt;/p&gt;', '', '', '', '', 'This is colors tooltips', 'This is acces tooltips', '', '', '', '', '', 'mobile', 'WHAT IS THE CAPACITY?', 'WHAT CONDITION BEST DESCRIBES IT?', 'What is the networks?', '', '', '', '', 'WHAT COLOR IS IT?', 'DOES IT COME WITH OTHER ACCESSORIES?', '', '', '', '', ''),
+            (7, 'Tablets', 'MjAyMjAyMjQxNDQ1NDI=.png', '<p>IPAD1, IPAD2, IPAD3, IPAD4, IPAD AIR, IPAD AIR2, IPAD PRO, IPAD 2107</p>', 1, 21, '', '&lt;p&gt;This is storage tooltips&lt;/p&gt;', '', '', 'This is connectivity tooltips', '&lt;p&gt;&lt;strong&gt;Type Tooltip here....&lt;/strong&gt;&lt;/p&gt;', '', '', '', '', '', '', '', '', '', 'tablet', 'What is the storage capacity?', 'WHAT CONDITION BEST DESCRIBES IT?', '', '', '', 'What type is it?', '', 'What color is it?', 'DOES IT COME WITH OTHER ACCESSORIES?', '', '', '', '', ''),
+            (13, 'Watch', 'MjAyMjAyMjQxNDQ1MDM=.jpg', '<p>wearable devices IWATCH, APPLE WATCH, GALAXY GEAR, GALAXY FIT</p>', 0, 32, '', '', '', '', '', '&lt;p&gt;To find your watch type&amp;nbsp;and more information, check the engraving on the back of your Apple Watch.&lt;/p&gt;', '&lt;p&gt;To find your case finish and more information, check the engraving on the back of your Apple Watch.&lt;br&gt;&amp;nbsp;&lt;/p&gt;', '&lt;p&gt;To find your case size and more information, check the engraving on the back of your Apple Watch.&lt;/p&gt;', '', '', '', '', '', '', '', 'watch', 'What is the storage capacity?', 'What condition best describes it?', '', '', 'What is the display size?', 'What type is it?', 'What is the case finish?', 'What color is it?', 'Does it come with other accessories?', '', '', '', '', ''),
+            (17, 'Laptops', 'MjAyMjAyMjQxNDQ2NDQ=.jpg', '', 1, 7, '', '&lt;p&gt;&lt;strong&gt;Storage Tooltip...&lt;/strong&gt;&lt;/p&gt;', '', '', '', '&lt;p&gt;Type tooltips here...&lt;/p&gt;', '', '', 'Color tooltips here...', '<span style=\"color: rgb(44, 62, 80); font-weight: 700;\">Accessories</span>&nbsp;tooltips here...', '&lt;p&gt;&lt;strong&gt;Screen Size Tooltip...&lt;/strong&gt;&lt;/p&gt;', '<span style=\"color: rgb(44, 62, 80); font-weight: 700;\">Screen Resolution Tooltip...</span>', '<span style=\"color: rgb(44, 62, 80); font-weight: 700;\">Year Tooltip...</span>', '', '', 'laptop', 'What is the hard drive capacity?', 'What condition best describes it?', '', '', '', 'What type is it?', '', 'What color is it?', 'Does it come with other accessories?', 'What is the display size?', 'Whats Screen Resolution is?', 'What is the model year?', '', ''),
+            (86, 'New Cp', 'MjAyMjAyMjQxNDQ3NDE=.jpg', '<p>sdfasdfs</p>', 1, 0, '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', '', ''),
+            (87, 'New', 'MjAyMjAyMjUyMzkxMg==.png', '<p><strong>sdfasdfsd</strong></p>', 1, 0, '', '', '', '&lt;p&gt;sdfd&lt;/p&gt;', '', '', '', '', '', '', '', '', '', '&lt;p&gt;this is a processor paragraph&lt;/p&gt;', '&lt;p&gt;this is ram paragraph&lt;/p&gt;', '', '', '', 'sadfsdf', '', '', '', '', '', '', '', '', '', 'what is the processor?', 'what is tthe ram size?'),
+            (88, 'Category with network', 'MjAyMjAyMjUwMjE0Mg==.png', '<p><strong>sdfasdfsd</strong></p>', 1, 0, '', '', '', '&lt;p&gt;sdf sadf&lt;/p&gt;', '', '', '', '', '', '', '', '', '', '&lt;p&gt;&lt;i&gt;&lt;strong&gt;this is a processor paragraph&lt;/strong&gt;&lt;/i&gt;&lt;/p&gt;', '&lt;ul&gt;&lt;li&gt;&lt;i&gt;this is ram paragraph&lt;/i&gt;&lt;/li&gt;&lt;/ul&gt;', '', '', '', 'sadfsdf', '', '', '', '', '', '', '', '', '', 'what is the processor?', 'what is tthe ram size?');        
+        ");
+    }
+}

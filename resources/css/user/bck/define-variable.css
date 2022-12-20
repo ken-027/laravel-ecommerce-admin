@@ -1,0 +1,13 @@
+:root {
+    --offcanvas-width: 220px;
+    --topNavbarHeight: 70px;
+    --bgColor: rgba(87, 87, 87, 0.8);
+    --color1: #000;
+    --bgMain: #282c30;
+    --transition: 500ms ease-in-out;
+    --transitionBtn: 300ms ease-in-out;
+    --hoverBg: lightgreen;
+    --cardBg: rgb(241, 239, 239);
+    --borderSeparator: 1px solid #32373b;
+    --bgSecondary: rgb(235, 228, 228);
+}

@@ -1,0 +1,5 @@
+@if (!strstr(url()->current(), 'admin'))
+    <title>Sell Your Phone, Tablet, Watch or Laptop for Cash | MacMetro.com</title>
+@else
+    <title>Login | Admin Panel</title>
+@endif

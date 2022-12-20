@@ -1,0 +1,34 @@
+<div class="container" style="        
+    width: 75%;
+    margin: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding-bottom: 10px;
+    border-radius: 5px;
+    text-align: center;
+    position: relative;"
+>
+    <div class="header" style="
+        height: 60px;
+        border-radius: 5px 5px 0 0;
+        background-image: linear-gradient( #212529, #5d636a);"
+    >
+        <a class="navbar-brand me-auto ms-lg-0 ms-3 text-uppercase fw-bold" href="/" target="_blank">
+            <img height="100%" src="https://jaspher.ga/assets/images/logo.png" class="logo" alt="">
+            {{-- <img src="{{ url('') }}/assets/images/logo.png" class="logo" alt=""> --}}
+        </a>
+    </div>
+    <h3>Forgot Password</h3>
+    <p>the link will expire in 24 hours</p>
+    <a type="submit" style="
+        transition: all 0.5s ease;
+        text-decoration: none;
+        color: green;
+        cursor: pointer;
+    " href="http://127.0.0.1:8000/account/new-password?id={{ encrypt(1) . '&date=' . encrypt(date('G:i:s m/d/Y',  strtotime('+24 hour', strtotime(date('G:i:s m/d/Y'))))) }}">click the link to reset your password</a>
+    <small style="display: none;">[{{ date('G:i:s m/d/Y') }}]</small>
+
+</div>
+{{-- 
+@php
+    exit;    
+@endphp --}}

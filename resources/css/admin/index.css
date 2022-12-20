@@ -1,0 +1,17 @@
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap"); */
+
+
+/* @import 'bootstrap'; */
+
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'bootstrap-icons';
+@import 'dataTables.bootstrap5.min.css';
+@import 'define-variable.css';
+@import 'editor.css';
+@import 'style.css';
+
+/* @import './admin/css/style.css';
+@import './admin/css/editor.css' */
+
+
+/* @import './admin/css/' */

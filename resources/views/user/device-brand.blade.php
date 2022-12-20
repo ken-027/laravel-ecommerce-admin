@@ -1,0 +1,6 @@
+@include('include.header')
+@include('user.include.menu')
+@include('user.include.section.choose-device')
+@include('user.include.section.select-brand')
+@include('user.include.section.footer')
+@include('include.footer')

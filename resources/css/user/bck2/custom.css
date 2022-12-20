@@ -1,0 +1,57 @@
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 6px rgba(137, 135, 135, 0.5);
+  border-radius: 12px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 12px;
+  box-shadow: inset 0 0 6px rgb(137, 135, 135);
+}
+
+body,
+header {
+  background-color: #212529;
+}
+
+header {
+  height: 100vh;
+}
+header .block.logo {
+  max-width: 250px;
+}
+header .menu-container .btn-login {
+  background-color: white;
+  color: #212529 !important;
+  font-weight: bold !important;
+  border-radius: 5px !important;
+}
+
+.social-container {
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 100;
+  border-right: 1px solid #32373b;
+  position: fixed;
+  background-color: #212529;
+  bottom: 0;
+  /* height: 100vh; */
+  left: 0;
+  top: 0;
+}
+.social-container i {
+  color: white;
+  font-size: 25px;
+}
+.social-container .info-how {
+  position: absolute;
+  bottom: 0;
+}
+
+/*# sourceMappingURL=custom.css.map */

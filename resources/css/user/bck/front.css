@@ -1,0 +1,47 @@
+.header {
+    @apply flex items-center justify-between py-3 md: h-28;
+}
+
+.sm-navigation {
+    @apply absolute top-0 w-4/5 h-screen p-5 bg-white border-r border-slate-200 transition-all delay-500;
+}
+
+.md-navigation {
+    @apply md: relative md: h-16 md: w-full md: border-0 md: left-0;
+}
+
+.nav-item {
+    @apply flex items-center gap-2;
+}
+
+.nav-item-a {
+    @apply uppercase font-medium font-sans text-slate-600 hover: text-indigo-500 block md: inline;
+}
+
+.bor-bottom {
+    @apply border-b border-slate-200;
+}
+
+.inline-between-center {
+    @apply flex items-center justify-between;
+}
+
+.show {
+    @apply block transition-all ease-in duration-300;
+}
+
+.dropdown-item {
+    @apply block px-4 py-2 md: inline-block;
+}
+
+.flex-items-center {
+    @apply flex items-center;
+}
+
+.sm-search {
+    @apply absolute top-0 bg-white h-screen w-full transition-all delay-500;
+}
+
+.md-dropdownlist {
+    @apply md: absolute md: top-[65px] md: left-0 md: bg-white md: border-slate-300 md: w-full md: flex-row md: flex-wrap md: drop-shadow-lg md: rounded-sm md: p-3
+}
